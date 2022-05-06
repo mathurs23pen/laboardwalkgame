@@ -1,0 +1,10 @@
+from turtle import *
+setup(500,751.5)
+bgpic("resources/whacamoleimg.png")
+wn = Screen()
+wn.addshape("resources/mole.gif")
+shape("resources/mole.gif")
+resizemode("auto")
+pensize(1)
+stamp()
+circle(500)
