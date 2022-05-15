@@ -1,8 +1,9 @@
 from turtle import *
 import pygame
-WIDTH, HEIGHT = 1025, 775
-WIN = pygame.display.set_mode((WIDTH, HEIGHT))
-ORANGE = (237, 89, 14)
-pygame.display.set_mode((500, 500))
-pygame.image.load("resources/whacamoleimg.png")
-pygame.draw.circle(WIN, (ORANGE), (83, 30), 8)
+pygame.init()
+x=1
+size=(700,500)
+screen = pygame.display.set_mode((500, 500))
+while x<54:
+    print(x)
+    x=x+1
