@@ -1,4 +1,5 @@
 from turtle import *
+from random import *
 setup(1000,752)
 hideturtle()
 speed(0)
