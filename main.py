@@ -1,3 +1,4 @@
+from audioplayer import *
 from turtle import *
 from random import *
 setup(1000,752)
