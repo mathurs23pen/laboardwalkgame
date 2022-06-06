@@ -44,6 +44,8 @@ questions = []
 questions.append(questionclass("Does Chad think Jason is the type of person to do drugs?", "Yes", "No", "A purple elephant", 2))
 questions.append(questionclass("Which character from Wonder is Anthony most similar to?", "Auggie", "Summer", "Julian", 3))
 questions.append(questionclass("Why would officer Costas always blame Chad for doing something he has not done?", "He hates Chad personally", "He thinks he is just like his dad (bad and always getting into trouble)", "he sees the worst in people without looking for actual evidence also known as “McCarthyism”", 3))
+questions.append(questionclass("Why is Manetti always so nice to Chad?", "Manetti is the good cop.", "He understands how Chad feels.", "He is Chad." 3))
+#Conflict
 def questionfunc(questionnum):
     shuffle(questions)
     shape("square")
