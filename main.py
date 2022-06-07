@@ -1,10 +1,13 @@
 from turtle import *
 from random import *
+from pynput.mouse import listener
 from playsound import playsound
 from threading import Thread
 t = Thread(target=playsound, args=["resources/Nu_Disco_-_Televisor_-_Neon_Mons_(getmp3.pro).mp3"])
 t.start()
 setup(1000,752)
+with Listener() as listener:
+    listener.join()
 hideturtle()
 speed(0)
 bgpic("resources/bgpic.png")
@@ -62,7 +65,7 @@ questions.append(questionclass("How does Chad feel when Gwen tells him about the
 #questions.append(questionclass())
 #questions.append(questionclass())
 #Plot
-#questions.append(questionclass())
+questions.append(questionclass("Who does Chad like (romantically, not platonically)?", ))
 #questions.append(questionclass())
 #questions.append(questionclass())
 #questions.append(questionclass())
@@ -94,4 +97,5 @@ def questionfunc(questionnum):
     goto(300, -150)
     pd()
     write(questions[questionnum].choicethree, False, "center", ("Arial", 18, "normal"))
-questionfunc(0)
+def on_click(x, y, button, pressed):
+    questionfunc(0)
