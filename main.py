@@ -65,7 +65,7 @@ questions.append(questionclass("How does Chad feel when Gwen tells him about the
 #questions.append(questionclass())
 #questions.append(questionclass())
 #Plot
-questions.append(questionclass("Who does Chad like (romantically, not platonically)?", ))
+questions.append(questionclass("Who does Chad like (romantically, not platonically)?", "A purple elephant", "Yes", "Gwen", 3))
 #questions.append(questionclass())
 #questions.append(questionclass())
 #questions.append(questionclass())
