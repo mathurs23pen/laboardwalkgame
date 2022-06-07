@@ -60,7 +60,7 @@ questions.append(questionclass("How does Chad feel when Gwen tells him about the
 #questions.append(questionclass())
 #questions.append(questionclass())
 #Signpost
-#questions.append(questionclass())
+questions.append(questionclass("Which of these is a valid signpost?", "All of chapter 7 is a Memory Moment because Chad is remembering last summer, when he met Gwen.", "All of chapter 7 is a Contrasts and Contradictions because it is unexpected for Chad to be so obsessed with a girl", "All of chapter 7 is a tough question because Chad is asking himself why he has fallen in love with a girl.", 1))
 #questions.append(questionclass())
 #questions.append(questionclass())
 #questions.append(questionclass())
