@@ -47,7 +47,7 @@ questions = []
 #STEAL
 questions.append(questionclass("Does Chad think Jason is the type of person to do drugs?", "Yes", "No", "A purple elephant", 2))
 questions.append(questionclass("Which character from Wonder is Anthony most similar to?", "Auggie", "Summer", "Julian", 3))
-questions.append(questionclass("What kind of a person is Chad before Malcolm fights Chad and shows him how good his life is?", "Energetic, like a radioactive dog.", "Tries everything and is not afraid of failing.", "Does not try because he is afraid of failing.", 3)
+questions.append(questionclass("What kind of a person is Chad before Malcolm fights Chad and shows him how good his life is?", "Energetic, like a radioactive dog.", "Tries everything and is not afraid of failing.", "Does not try because he is afraid of failing.", 3))
 questions.append(questionclass("Why is Manetti always so nice to Chad?", "Manetti is the good cop.", "He understands how Chad feels.", "He is Chad.", 3))
 #Conflict
 questions.append(questionclass("Which of the following characters does Gwen go out with?", "Anthony", "Jason", "A purple elephant", 2))
