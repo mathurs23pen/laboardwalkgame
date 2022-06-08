@@ -57,8 +57,8 @@ questions.append(questionclass("How does Chad feel when Gwen tells him about the
 #Theme
 questions.append(questionclass("Which theme is backed up by correct evidence?", "The real radioactive bunnies are the friends you make along the way. This is proven by the number of times Chad asks for a purple giraffe with horns.", "'Be yourself. Your real friends will like you for you.' This is backed up by the fact that Gwen accepts Chad when he reveals his true feelings without holding anything back.", "'Make good choices.' This is proven by the fact that he is sad after buying a giraffe instead of a bunny.", 2))
 questions.append(questionclass("What is a theme of the book?", "You can't get rejected if you don't try, so don't even make an attempt at doing anything.", "Purple bunnies are radioactive, so you should stay away from them." "You can't succeed if you don't try, so you have to make an attempt.", 3))
-#questions.append(questionclass())
-#questions.append(questionclass())
+questions.append(questionclass("How is the title of the book similar to what is in the book?", "It shows how Chad has been dunked many times in his actual life and the downs he goes through", "he wants to be the Bozo and be dunked", "he’s never gonna give you up", 1))
+questions.append(questionclass("Which of these events reveal the most about Chad’s character?",  "Chad deciding not to quit being a Ballzo even though he hates it.", "When rainbow elephant dies", "When Jason gets sick", 1))
 #Signpost
 questions.append(questionclass("Which of these is a valid signpost?", "All of chapter 7 is a Memory Moment because Chad is remembering last summer, when he met Gwen.", "All of chapter 7 is a Contrasts and Contradictions because it is unexpected for Chad to be so obsessed with a girl", "All of chapter 7 is a tough question because Chad is asking himself why he has fallen in love with a girl.", 1))
 questions.append(questionclass("Which of the following characters gives Chad advice? (Words of the Wiser)", "Corey", "Malcolm", "A purple elephant"))
