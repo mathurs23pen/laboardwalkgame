@@ -47,7 +47,7 @@ questions = []
 #STEAL
 questions.append(questionclass("Does Chad think Jason is the type of person to do drugs?", "Yes", "No", "A purple elephant", 2))
 questions.append(questionclass("Which character from Wonder is Anthony most similar to?", "Auggie", "Summer", "Julian", 3))
-questions.append(questionclass("Why would officer Costas always blame Chad for doing something he has not done?", "He hates Chad personally", "He thinks he is just like his dad (bad and always getting into trouble)", "he sees the worst in people without looking for actual evidence also known as “McCarthyism”", 3))
+questions.append(questionclass("What kind of a person is Chad before Malcolm fights Chad and shows him how good his life is?", "Energetic, like a radioactive dog.", "Tries everything and is not afraid of failing.", "Does not try because he is afraid of failing.", 3)
 questions.append(questionclass("Why is Manetti always so nice to Chad?", "Manetti is the good cop.", "He understands how Chad feels.", "He is Chad.", 3))
 #Conflict
 questions.append(questionclass("Which of the following characters does Gwen go out with?", "Anthony", "Jason", "A purple elephant", 2))
@@ -55,20 +55,20 @@ questions.append(questionclass("Why do you think Anthony decided to ask Gwen out
 questions.append(questionclass("How does Jason's sickness affect Chad? Select the answer that is not correct.", "Positively, Chad is able to practice being a Bozo and feel like he's helping Jason.", "Negatively, the fact that Chad felt like he was losing his best friend was part of the reason he went to the couch.", "Negatively. Because of this, Chad can't be a Bozo because he wanted to do it with Jason.", 3))
 questions.append(questionclass("How does Chad feel when Gwen tells him about the party? Why does he feel this way?", "Angry because he thinks Anthony has corrupted her. He views her as Little Miss Perfect and feels that being with Anthony would ruin her.", "Angry because he feels like he has been robbed of one of his possessions. He took a risk when he asked her to be his girlfriend and then she ran off with his nemesis.", "Guilty because he realizes that he should've asked her out before so that Anthony couldn't steal her from him.", 1))
 #Theme
-#questions.append(questionclass())
-#questions.append(questionclass())
+questions.append(questionclass("Which theme is backed up by correct evidence?", "The real radioactive bunnies are the friends you make along the way. This is proven by the number of times Chad asks for a purple giraffe with horns.", "'Be yourself. Your real friends will like you for you.' This is backed up by the fact that Gwen accepts Chad when he reveals his true feelings without holding anything back.", "'Make good choices.' This is proven by the fact that he is sad after buying a giraffe instead of a bunny.", 2))
+questions.append(questionclass("What is a theme of the book?", "You can't get rejected if you don't try, so don't even make an attempt at doing anything.", "Purple bunnies are radioactive, so you should stay away from them." "You can't succeed if you don't try, so you have to make an attempt.", 3))
 #questions.append(questionclass())
 #questions.append(questionclass())
 #Signpost
 questions.append(questionclass("Which of these is a valid signpost?", "All of chapter 7 is a Memory Moment because Chad is remembering last summer, when he met Gwen.", "All of chapter 7 is a Contrasts and Contradictions because it is unexpected for Chad to be so obsessed with a girl", "All of chapter 7 is a tough question because Chad is asking himself why he has fallen in love with a girl.", 1))
-#questions.append(questionclass())
+questions.append(questionclass("Which of the following characters gives Chad advice? (Words of the Wiser)", "Corey", "Malcolm", "A purple elephant"))
 #questions.append(questionclass())
 #questions.append(questionclass())
 #Plot
 questions.append(questionclass("Who does Chad like (romantically, not platonically)?", "A purple elephant", "Yes", "Gwen", 3))
-#questions.append(questionclass())
-#questions.append(questionclass())
-#questions.append(questionclass())
+questions.append(questionclass("Why does Jason want to go to California?", "He wants to meet 69 purple elephant.", "He wants to play volleyball and meet cute college girls at the Santa Monica pier.", "His parents like it there.", 2))
+questions.append(questionclass("Why is Chad disappointed about his job in chapter 13?", "He thought he was going to be a Bozo, but instead he was the Bozo's ball boy. This is a very strenuous and taxing job.", "He thought he was going to be Barney but instead he was Bart Simpson.", "He wanted to work with Malcolm but instead he had to collect balls for him.", 1))
+questions.append(questionclass("Why does Jason’s mom hate Chad and doesn't want him to be around Jason?", "She is (221, 199, 160), which is beige (the most boring of colors).", "She thinks chad was the reason Jason got sick", "She thinks Chad is Barney.", 2))
 #Function to display questions
 def questionfunc(questionnum):
     shuffle(questions)
