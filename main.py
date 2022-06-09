@@ -2,6 +2,7 @@ from turtle import *
 from random import *
 from playsound import playsound
 from threading import Thread
+from flask import Flask
 t = Thread(target=playsound, args=["resources/Nu_Disco_-_Televisor_-_Neon_Mons_(getmp3.pro).mp3"])
 t.start()
 setup(1000,752)
